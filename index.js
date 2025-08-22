@@ -59,6 +59,10 @@ const updateFlag = (element) => {
     let response = await fetch(URL);
     // console.log(response);
 
+    if(toCurr.value===fromCurr.value){
+        finalMsg.innerText=`Same Currency Echange is not possible ${fromCurr.value} to ${toCurr.value}`;
+    }
+
 
 
     let data = await response.json();
