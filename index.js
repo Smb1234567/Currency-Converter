@@ -60,7 +60,7 @@ const updateFlag = (element) => {
     // console.log(response);
 
     if(toCurr.value===fromCurr.value){
-        finalMsg.innerText=`Same Currency Echange is not possible ${fromCurr.value} to ${toCurr.value}`;
+        finalMsg.innerText=`Same Currency Exchange is not possible ${fromCurr.value} to ${toCurr.value}`;
     }
 
 
